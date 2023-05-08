@@ -4,11 +4,6 @@ import { galleryItems } from "./gallery-items.js";
 console.log(galleryItems);
 
 const gallery = document.querySelector(".gallery");
-const div1 = document.createElement("div");
-const list = document.createElement("ul");
-list.classList.add("list");
-
-div1.append(list);
 
 function renderList() {
   const markup = galleryItems
