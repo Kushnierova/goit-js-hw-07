@@ -24,13 +24,6 @@ function renderList() {
 }
 renderList();
 
-gallery.addEventListener("click", (e) => {
-  e.preventDefault();
-  // console.log(e);
-  if (e.target.nodeName !== "IMG") {
-    return;
-  }
-});
 new SimpleLightbox(".gallery a", {
     captionsData: "alt",
     captionPosition: "bottom",
